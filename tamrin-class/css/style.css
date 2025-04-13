@@ -1,0 +1,424 @@
+
+@font-face {
+  font-family: "Vollkorn";
+  src:  url(../font/vollkorn/WOFF/vollkorn-medium-webfont.woff)format(woff),
+ url(../font/vollkorn/TTF/Vollkorn-Medium.ttf) format(ttf) ,
+   url(../font/vollkorn/TTF/Vollkorn-Regular.ttf) format(ttf);
+}
+@font-face {
+  font-family: "Lobster";
+  src: url(../font/Lobster/Lobster\ Regular\ 400.ttf);
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(../font/Raleway/Raleway-_www.Downloadha.com/Raleway-Medium.ttf);
+}
+:root {
+  --property-color: rgb(30, 27, 27);
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+*{
+  box-sizing: border-box;
+  font-family:Vollkorn ;
+}
+.hidden {
+  display: none;
+}
+.container-header{
+  position: absolute;
+  width: 68%;
+  height: auto;
+ top: 0;
+ left: 17%;
+ z-index: 100;
+}
+header{
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-image: url(../img/food-header.jpg);
+  background-repeat: no-repeat;
+  background-position: 40% 0%;
+  background-size: cover;
+}
+.nav{
+  direction: rtl;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #fff;
+}
+.menu-head{
+  padding-top: 20px;
+}
+.menu-head>ul{
+  font-family: Vollkorn;
+  font-weight: 100;
+  display: flex;
+  font-size: 15px;
+}
+.list-item{
+margin-left: 30px;
+  list-style-type: none;
+  color: #fff;
+}
+.logo{
+  font-size: 20px;
+  color: #fff;
+}
+.logo h2{
+  font-family: Lobster;
+}
+.item1{
+  color: black;
+}
+.title-one{
+  width: 50%;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.title-one-icon{
+  margin: auto;
+}
+.title-one-icon img{
+  width: 25px;
+}
+.make-food{
+  font-size: 45px;
+    font-family: lobster;
+}
+.color-page{
+  color: #ddbd9c;
+}
+.Italic{
+  font-family:Vollkorn ;
+ font-size: 20px;
+ color: #fff;
+ margin-top: -20px;
+ margin-bottom: 40px;
+}
+.text{
+  font-size: 13px;
+  font-family:Raleway;
+font-weight: 900;
+color: #ffffff;
+}
+.title-two{
+  background-color: rgb(20, 20, 37);
+  width: 40%;
+margin-left: 60%;
+padding: 10px 30px;
+color: #fff;
+font-size: 13px;
+}
+.title-two>button{
+  display: block;
+  margin: auto;
+  background-color:rgb(20, 20, 37) ;
+  border: 1px solid #ddbd9c;
+  color: #fff;
+  width: 200px;
+  font-size: 20px;
+  justify-content: center;
+  height: 50px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+.space{
+  margin-top: 70px;
+  width: 40%;
+  height: 520px;
+  margin-left: 60%;
+  background-image: url(../img/food3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.section-area{
+  position: absolute;
+  top: 0;
+  left: 16%;
+  padding: 40px;
+  width: 40%;
+  text-align: center;
+  color: #777;
+  font-family: Raleway;
+}
+section{
+  position: relative;
+  width: 100%;
+  height: 600px;
+  margin-bottom: 300px;
+}
+section h1{
+  font-family: lobster;
+  font-size: 55px;
+  color: #cfa070;
+}
+section p{
+  line-height: 1.5;
+  margin-bottom: 70px;
+}
+.about1,.about2{
+  line-height: 2.6;
+    text-align: justify;
+}
+.container-special{
+  width: 70%;
+  position: absolute;
+  top: 0;
+  left: 15%;
+}
+.Special{
+  position: relative;
+  width: 100%;
+  height: 470px;
+  background-image: url(../img/food2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.img1{
+  width: 100%;
+  height: 180px;
+  background-image: url(../img/food5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.img2{
+  width: 100%;
+  height: 180px;
+  background-image: url(../img/food6.jfif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.img3{
+  width: 100%;
+  height: 180px;
+  background-image: url(../img/food7.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.img4{
+  width: 100%;
+  height: 180px;
+  background-image: url(../img/food8.jfif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.Special-area{
+  margin-top: 10px;
+  text-align: center;
+  color: #b43636;
+  display: flex;
+  flex-direction: column;
+}
+.Special-area h1{
+  font-size: 45px;
+  font-family: Lobster;
+}
+.Special-paragraph{
+  color: #000;
+  font-weight: 500;
+}
+.Special-library{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.item{
+  width: 23%;
+  height: 230px;
+  background-color: #fff;
+}
+
+.container-menu{
+  width: 70%;
+  position: absolute;
+  top: 0;
+  left: 15%;
+}
+.menu-all{
+  position: relative;
+  width: 100%;
+  height: 1670px;
+  background-color: rgb(20, 20, 37);
+}
+.menu-area{
+  margin-top: 40px;
+}
+.menu-area h1{
+  font-size: 45px;
+  font-family: Lobster;
+  color: #ddbd9c;
+  text-align: center;
+}
+.menu-area p{
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+.menu-area h2{
+  font-size: 28px;
+  color: #ddbd9c;
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 100px;
+}
+.menu-list{
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+.menu-items{
+  padding: 20px;
+}
+.menu-item{
+  display: flex;
+  justify-content: space-between;
+}
+.price-menu{
+  margin-top: 45px;
+  font-size: 37px;
+  color: #ddbd9c;
+}
+.menu-area button{
+  background-color: #cfa070;
+  border: 1px solid #cfa070;
+  width: 190px;
+  display: block;
+  height: 50px;
+  font-size: 20px;
+  margin: auto;
+  margin-top: 40px;
+  color: #222;
+  border-radius: 2px;
+  font-family: sans-serif;
+}
+.container-book{
+  width: 70%;
+  position: absolute;
+  top: 0;
+  left: 15%;
+}
+.Book-all{
+  position: relative;
+  background-image: url(../img/food3.avif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 540px;
+}
+.book-area{
+  width: 100%;
+  margin-top: 40px;
+}
+.book-area h1{
+  color: #ffffff;
+  font-family: 'Lobster';
+  font-size: 53px;
+  text-align: center;
+
+}
+.book-area p{
+  font-size: 17px;
+  color: #fff;
+  text-align: center;
+}
+.add-book{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.date,.people,.time{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.add-book label{
+  font-size: 20px;
+  color: #fff;
+}
+.add-book select{
+  padding: 20px;
+  font-size: 22px;
+}
+.add-book option{
+  font-size: 20px;
+}
+.book-area button{
+  background-color: #cfa070;
+  border: 1px solid #cfa070;
+  width: 190px;
+  display: block;
+  height: 50px;
+  font-size: 20px;
+  margin: auto;
+  margin-top: 70px;
+  color: #222;
+  border-radius: 2px;
+  font-family: sans-serif;
+}
+.container-footer{
+  width: 70%;
+  position: absolute;
+  top: 0;
+  left: 15%;
+}
+footer{
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-color:  rgb(20, 20, 37);
+}
+.footer-area{
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  margin-top: 40px;
+}
+.footer-area button{
+  background-color: rgb(20, 20, 37) ;
+  border: 1px solid #cfa070 ;
+  color: #fff;
+}
+.col1{
+width: 20%;
+  font-size: 14px;
+}
+.col2{
+width: 42%;
+  font-size: 14px;
+}
+.col3{
+width: 28%;
+  font-size: 14px;
+}
+.col1 button{
+  width: 75%;
+  height: 63px;
+  margin-top: 40px;
+  font-size: 16px;
+}
+.col2 button{
+  width: 70%;
+  height: 60px;
+  margin-top: 40px;
+  font-size: 16px;
+}
+.col3 button{
+  width: 22%;
+  height: 63px;
+  margin-top: 55px;
+  font-size: 30px;
+}
+
